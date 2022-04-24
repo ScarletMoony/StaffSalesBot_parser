@@ -1,0 +1,47 @@
+[
+     {
+          "name": "Кеди Staff white navy",
+          "sizes": "40 41 42 43 44 45",
+          "price": "990 грн.",
+          "old_price": "1250 грн.",
+          "discount": "-21%",
+          "href": "https://www.staff-clothes.com/ua/kedi-staff--white---navy/ms0153",
+          "img_link": "https://static.staff-clothes.com/media/cache/image_product_mobile_product/image_product/0002/45/3959cf724f354f69a29bab0babbf33c3.jpeg"
+     },
+     {
+          "name": "Кеди Staff all white",
+          "sizes": "40 42 43 45",
+          "price": "990 грн.",
+          "old_price": "1250 грн.",
+          "discount": "-21%",
+          "href": "https://www.staff-clothes.com/ua/kedy-staff-all-white/ms0150",
+          "img_link": "https://static.staff-clothes.com/media/cache/image_product_mobile_product/image_product/0002/38/7a6e6de61e8a4fa19a5453e59b5a9439.jpeg"
+     },
+     {
+          "name": "Кросівки Staff black & red",
+          "sizes": "40 41 42 43 44 45",
+          "price": "1400 грн.",
+          "old_price": "1750 грн.",
+          "discount": "-20%",
+          "href": "https://www.staff-clothes.com/ua/krossovki-staff-black--red/ms0104",
+          "img_link": "https://static.staff-clothes.com/media/cache/image_product_mobile_product/image_product/0001/79/1e08b74303024fde92ef3650abb16718.jpeg"
+     },
+     {
+          "name": "Кросівки Staff gray & black & red",
+          "sizes": "40 41 42 43 44 45",
+          "price": "1400 грн.",
+          "old_price": "1750 грн.",
+          "discount": "-20%",
+          "href": "https://www.staff-clothes.com/ua/krossovki-staff-gray--black--red/ms0103",
+          "img_link": "https://static.staff-clothes.com/media/cache/image_product_mobile_product/image_product/0001/79/6dd6e300b9ea4feaabfc14b5b496afb7.jpeg"
+     },
+     {
+          "name": "Кросівки Staff black & white",
+          "sizes": "40 44",
+          "price": "1320 грн.",
+          "old_price": "1650 грн.",
+          "discount": "-20%",
+          "href": "https://www.staff-clothes.com/ua/krossovki-staff-black--white/ms0149",
+          "img_link": "https://static.staff-clothes.com/media/cache/image_product_mobile_product/image_product/0002/38/f7231123b3734feb8cdb212f08fb28dc.jpeg"
+     }
+]
