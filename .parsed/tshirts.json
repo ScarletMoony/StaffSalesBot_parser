@@ -1,0 +1,20 @@
+[
+     {
+          "name": "Поло Staff line green",
+          "sizes": "XS",
+          "price": "320 грн.",
+          "old_price": "460 грн.",
+          "discount": "-30%",
+          "href": "https://www.staff-clothes.com/ua/polo-staff-line-green/hh0458",
+          "img_link": "https://static.staff-clothes.com/media/cache/image_product_mobile_product/image_product/0001/97/0e4211a62c3f4f368c8e5bad52119b52.jpeg"
+     },
+     {
+          "name": "Поло Staff line red",
+          "sizes": "XS",
+          "price": "350 грн.",
+          "old_price": "460 грн.",
+          "discount": "-24%",
+          "href": "https://www.staff-clothes.com/ua/polo-staff-line-red/hh0459",
+          "img_link": "https://static.staff-clothes.com/media/cache/image_product_mobile_product/image_product/0001/97/3a7232ccebd94fbfb52e2f97cf146494.jpeg"
+     }
+]

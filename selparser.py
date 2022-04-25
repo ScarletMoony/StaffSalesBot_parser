@@ -3,8 +3,9 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+import urls
 
-def get_data(url):
+def get_data(url, category):
     options = webdriver.ChromeOptions()
     options.headless = True
     driver = webdriver.Chrome(executable_path=r'D:\VSCodeProjects\Projs\StaffSalesBot_parser\webdvr\chromedriver.exe', options=options)
@@ -55,8 +56,17 @@ def get_data(url):
             }
     )
         
-    with open('.parsed.json', 'w', encoding='utf-8') as file:
+    with open(f'./.parsed/{category}.json', 'w', encoding='utf-8') as file:
         json.dump(parsed, file, indent=5, ensure_ascii=False)
+
+
+def update_data():
+    for i in urls.all_urls:
+        # print(i)
+        for k, v in i.items():
+            get_data(v, k)
+
+# update_data()
 
 # get_data('https://www.staff-clothes.com/m/verkhnyaya-odezhda/c1038/?orderBy=DESC&sort=discount')
         
