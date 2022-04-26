@@ -7,18 +7,22 @@ import urls
 
 def get_data(url, category):
     options = webdriver.ChromeOptions()
-    options.headless = True
+    options.headless = False
     driver = webdriver.Chrome(executable_path=r'D:\VSCodeProjects\Projs\StaffSalesBot_parser\webdvr\chromedriver.exe', options=options)
     driver.get(url=url)
     
-    for _ in range(0, 40):
-        driver.execute_script('window.scrollBy(0, 100)')
-        print('scrolled')
+    for _ in range(0, 100):
+        driver.execute_script('window.scrollBy(0, 80)')
     
     try:
-        WebDriverWait(driver, 10).until_not(EC.presence_of_all_elements_located((By.CLASS_NAME, 'product-card__info--oldprice')))
+        WebDriverWait(driver, 5).until_not(EC.presence_of_all_elements_located((By.CLASS_NAME, 'product-card__info--oldprice')))
     except Exception as ex:
         print(ex)
+    
+    for _ in range(0, 100):
+        driver.execute_script('window.scrollBy(0, 80)')
+    
+    driver.implicitly_wait(10)
     
     old_prices = driver.find_elements(By.CLASS_NAME, value='product-card__info--oldprice')
     names = driver.find_elements(By.CLASS_NAME, value='product-card__info--title')
@@ -65,6 +69,7 @@ def update_data():
         # print(i)
         for k, v in i.items():
             get_data(v, k)
+    print('update done')
 
 # update_data()
 

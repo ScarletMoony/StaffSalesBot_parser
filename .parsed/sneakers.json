@@ -10,7 +10,7 @@
      },
      {
           "name": "Кеди Staff all white",
-          "sizes": "40 42 43 45",
+          "sizes": "40 43 45",
           "price": "990 грн.",
           "old_price": "1250 грн.",
           "discount": "-21%",
@@ -43,5 +43,23 @@
           "discount": "-20%",
           "href": "https://www.staff-clothes.com/ua/krossovki-staff-black--white/ms0149",
           "img_link": "https://static.staff-clothes.com/media/cache/image_product_mobile_product/image_product/0002/38/f7231123b3734feb8cdb212f08fb28dc.jpeg"
+     },
+     {
+          "name": "Кросівки Staff black",
+          "sizes": "40 41",
+          "price": "1200 грн.",
+          "old_price": "1500 грн.",
+          "discount": "-20%",
+          "href": "https://www.staff-clothes.com/ua/krossovki-staff-black/ms0139",
+          "img_link": "https://static.staff-clothes.com/media/cache/image_product_mobile_product/image_product/0002/35/073e804b75d34f908c94a753aa1657d0.jpeg"
+     },
+     {
+          "name": "Кросівки Staff khaki",
+          "sizes": "41",
+          "price": "1080 грн.",
+          "old_price": "1350 грн.",
+          "discount": "-20%",
+          "href": "https://www.staff-clothes.com/ua/krossovki-staff-haki/ms0129",
+          "img_link": "https://static.staff-clothes.com/media/cache/image_product_mobile_product/image_product/0002/16/30ea6950de774f83878b97ac0be9fe3c.jpeg"
      }
 ]
